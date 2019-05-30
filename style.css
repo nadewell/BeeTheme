@@ -1,0 +1,213 @@
+/*
+Theme Name: BeeWP
+Theme URI: https://www.nadewell.tk/
+Author: Nadewell
+Author URI: https://www.nadewell.tk/
+Version: 1.0.0
+Description:
+Tags: ABCD,ABCD
+*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+/* theme global css */
+.site-content {
+    padding: 50px 0px 50px 0px;
+}
+.pagination{
+    justify-content: center;
+    align-items: center;
+}
+.pagination .nav-links .page-numbers {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.pagination .nav-links .page-numbers:first-child {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+.pagination .nav-links .page-numbers:last-child {
+    padding-right: 0px;
+    padding-left: 8px;
+}
+/* Search Form */
+.searchform .btn{
+    line-height: 1;
+}
+/* Header */
+.site-header{
+    background: #ffffff;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid#f0f0f0;
+}
+.navbar {
+    width: 100%;
+    padding: 0 !important;
+}
+.navbar .navbar-nav .nav-link:hover, 
+.navbar .navbar-nav .nav-link:focus{
+    color: #007bff !important;
+}
+.dropdown-menu {
+    padding: 0 0.5rem !important;
+    border: none !important;
+    background: #f0f0f0 !important;
+    border-radius: 0 !important;
+}
+/* Footer */
+.site-footer {
+    background: #f0f0f0;
+    padding: 50px 0px 0px 0px;
+}
+.site-footer .widget-area{
+    margin-bottom: 20px;
+}
+.site-footer .widget .widget-title{
+    margin-bottom: 30px;
+    color: #000000;
+    padding-left: 10px;
+    position: relative;
+}
+.site-footer .widget .widget-title:before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #007bff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.site-footer .widget ul {
+    list-style: none;
+    padding-left: 0;
+}
+.site-footer .widget a,
+.site-footer .widget p,
+.site-footer .widget span,
+.site-footer .widget ul,
+.site-footer .widget li,
+.site-footer .widget blockquote{
+    color: #333333;
+    margin-bottom: 0;
+}
+.site-footer .widget li a:hover,
+.site-footer .widget li a:focus{
+    color: #007bff;
+    text-decoration: none;
+    box-shadow: inset 0px -2px 0px #007bff;
+    padding-bottom: 5px;
+}
+.site-footer .widget-area li{
+    margin-bottom: 10px;
+}
+.site-footer .footer-credits {
+    padding: 10px 0px 20px 0px;
+    color: #000000;
+}
+/* sidebar */
+.sidebar .widget {
+    margin-bottom: 20px;
+    padding: 30px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.sidebar .widget .widget-title{
+    margin-bottom: 30px;
+    color: #333333;
+    padding-left: 10px;
+    position: relative;
+}
+.sidebar .widget .widget-title:before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #007bff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sidebar .widget ul {
+    list-style: none;
+    padding-left: 0;
+}
+.sidebar .widget a,
+.sidebar .widget p,
+.sidebar .widget span,
+.sidebar .widget ul,
+.sidebar .widget li,
+.sidebar .widget blockquote{
+    color: #333333;
+    margin-bottom: 0;
+}
+.sidebar .widget li a:hover,
+.sidebar .widget li a:focus{
+    color: #007bff;
+    text-decoration: none;
+    box-shadow: inset 0px -2px 0px #007bff;
+    padding-bottom: 5px;
+}
+.sidebar .widget li{
+    margin-bottom: 10px;
+}
+/* article */
+article.post {
+    word-wrap: break-word;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+article.post .post-thumb {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+article.post .post-thumb .post-title{
+    position: absolute;
+    bottom: 0;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+}
+article.post  .post-title > a{
+    text-decoration: none;
+    color: #000000;
+}
+article.post  .post-title > a:hover{
+    text-decoration: none;
+    color: #007bff;
+}
